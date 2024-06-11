@@ -1,0 +1,35 @@
+Displaying Table in Angular
+1.create the model folder and make the interface here with the help of cli
+2.import in the component.ts file and the declare  inn the array with the same parameters
+and we initialize in the interface 
+3.table data of that data type
+ ->usually will come from api
+ from backwars we are deal with static data till.....
+ 4.make of the service for (in the form of function)
+  5. now we connected the dynamically data to it (commented the static data from vom.ts file)
+
+
+
+  .now we are making template driven form in add component (part of ng form)
+  ----------->it is done for add new user 
+                                        ->set the ui
+                                        ->implement in the component 
+                                        ->call the service 
+                                                    
+
+
+
+
+
+
+ read about ng contianer 
+ read about ngAfterInit
+ read about matsort and matpaginator
+ read about selecthandler
+ read about backtick ,dollar sign ,tild
+ read about observable-----done, it streaming the data continously but it does not wait for collecting the data at a place
+ read about promises ---done, it recieveing the data from server once it collect the all data at a place
+ read about constructor ---done ,here we put the service code and observable with subscription section ,it provide the all dependencies to be called that is used in the service 
+ read about (?.) when we use this 
+ read about ! when  we use this 
+ read about template and reactive form

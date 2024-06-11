@@ -1,0 +1,56 @@
+{
+  "creditcards": [
+    {
+      "id": "cc03",
+      "name": "radhika",
+      "maxCredit": 0,
+      "interestRate": 0,
+      "active": false,
+      "reccomendedScore": "",
+      "termsAndCondition": "",
+      "createDate": "",
+      "updateDate": "",
+      "description": "",
+      "bankname": "jio"
+    },
+    {
+      "id": "7fca",
+      "name": "Parteek",
+      "maxCredit": 0,
+      "interestRate": 0,
+      "active": false,
+      "reccomendedScore": "",
+      "termsAndCondition": "",
+      "createDate": "",
+      "updateDate": "",
+      "description": "",
+      "bankname": "pnbbb77"
+    },
+    {
+      "id": "f69c",
+      "name": "Parteek",
+      "maxCredit": 0,
+      "interestRate": 0,
+      "active": false,
+      "reccomendedScore": "",
+      "termsAndCondition": "",
+      "createDate": "",
+      "updateDate": "",
+      "description": "",
+      "bankname": "&uu"
+    },
+    {
+      "id": "294d",
+      "name": "uuuuui",
+      "maxCredit": 0,
+      "interestRate": 0,
+      "active": false,
+      "reccomendedScore": "",
+      "termsAndCondition": "",
+      "createDate": "",
+      "updateDate": "",
+      "description": "",
+      "bankname": "ii#"
+    }
+  ]
+}

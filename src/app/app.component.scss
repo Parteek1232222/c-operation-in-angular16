@@ -1,0 +1,29 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.headertoolbar{
+    background-color: rgb(148, 141, 141);
+    color: white;
+        
+}
+
+.content-container{
+    height:100%;
+    border: 1px solid black;
+}
+.sidebar{
+    background-color: grey;
+    // height:100%;
+    width:250px;
+
+}
+@import 'ngx-toastr/toastr';
+// @import '/node_modules/ngx-toastr/toastr'; css file 
+// @import '/node_modules/ngx-toastr/toastr-bs4-alert';     scss file 
+
+
+
+
+
+
+  

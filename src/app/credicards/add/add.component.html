@@ -1,0 +1,50 @@
+<mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                Add new ccredit card
+            </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <form #creditCardForm="ngForm" (ngSubmit)="saveCreditCard()" >
+                    <div class="form-group">
+                        <mat-form-field>
+                                <label for="">name</label>
+                                <input type="text" name="name" matInput placeholder="enter the credit card name" [(ngModel)]="newCreditCard.name" required minlength="3" maxlength="24">
+                        </mat-form-field>
+                            <mat-error *ngIf="creditCardForm.controls['name']?.touched && creditCardForm.controls['name']?.hasError('required')" >name is required</mat-error>
+                            <mat-error *ngIf="creditCardForm.controls['name']?.touched && creditCardForm.controls['name']?.hasError('minlength')" >at least 3 character</mat-error>
+                            <mat-error *ngIf="creditCardForm.controls['name']?.touched && creditCardForm.controls['name']?.hasError('maxlength')" >not more than 24 character</mat-error>
+                        <mat-form-field>
+
+                            <label for="">bankname</label>
+                            <input type="text" name="bankname" matInput placeholder="enter the credit bankname" [(ngModel)]="newCreditCard.bankname" required minlength="3" maxlength="24">
+                        </mat-form-field>
+                            <mat-error *ngIf="creditCardForm.controls['bankname']?.touched && creditCardForm.controls['bankname']?.hasError('required')" >bankname is required</mat-error>
+                            <mat-error *ngIf="creditCardForm.controls['bankname']?.touched && creditCardForm.controls['bankname']?.hasError('minlength')" >at least 3 character</mat-error>
+                            <mat-error *ngIf="creditCardForm.controls['bankname']?.touched && creditCardForm.controls['bankname']?.hasError('maxlength')" >not more than 24 character</mat-error>
+                            <mat-error *ngIf="creditCardForm.controls['bankname']?.touched && creditCardForm.controls['bankname']?.hasError('specialCharacters')" >the field requires only aplphabet and numeric</mat-error>
+                    </div>
+                    <div class="form-group">
+                        <button   mat-raised-button color="priamary" [disabled]="!creditCardForm.valid" >Add new credit card</button>
+                        
+                    </div>
+
+            </form>
+        </mat-card-content>
+</mat-card>
+
+
+
+
+<!-- export class AppComponent implements OnInit {
+    arrayLength: number;
+  
+    constructor(private dataService: DataService) { }
+  
+    ngOnInit(): void {
+      this.dataService.getItems().subscribe(items => {
+        this.arrayLength = items.length;
+        console.log('Array Length:', this.arrayLength);
+      });
+    }
+  } -->
